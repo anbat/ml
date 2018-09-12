@@ -1,0 +1,20 @@
+The given training examples are:
+['sunny', 'warm', 'normal', 'warm', 'same', 'yes']
+['sunny', 'warm', 'high', 'warm', 'same', 'yes']
+['rainy', 'cold', 'high', 'warm', 'change', 'no']
+['sunny', 'warm', 'high', 'cold', 'change', 'yes']
+
+The positive examples are:
+['sunny', 'warm', 'normal', 'warm', 'same', 'yes']
+['sunny', 'warm', 'high', 'warm', 'same', 'yes']
+['sunny', 'warm', 'high', 'cold', 'change', 'yes']
+
+
+The steps of the Find-s algorithm are
+ ['%', '%', '%', '%', '%', '%']
+['sunny', 'warm', 'normal', 'warm', 'same']
+['sunny', 'warm', '?', 'warm', 'same']
+['sunny', 'warm', '?', '?', '?']
+
+The maximally specific Find-s hypothesis for the given training examples is
+['sunny', 'warm', '?', '?', '?']
